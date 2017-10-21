@@ -10,7 +10,6 @@ import string
 #Makes a variable that has all of the lower case alphabet
 alphaStringLow = string.lowercase
 
-
 #function returns the value of the number of time an alphabet letter occurs in a file
 ##Test file provided is gettysburg.txt
 def letterCount(target_char, file_name):
@@ -25,12 +24,12 @@ def letterCount(target_char, file_name):
     
     #traverses each character in the file
     for char in data:
-        #Sees if the current chracters selected is the chracter we are counting right now.
-        #Counts the lower or upper case occurance of the target character
-        if char == target_char or char.upper() == target_char:
+        #Sees if the current characters selected is the chracter we are counting right now.
+        #Counts the lower or upper case occurance of the target character.
+        if char == target_char or char == target_char.upper():
             number_of_occurences += 1
             
-    #Closes file
+    #Closes file.
     file_connector.close()
     
     return number_of_occurences
