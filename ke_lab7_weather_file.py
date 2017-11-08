@@ -5,7 +5,6 @@ Created on Fri Nov 03 16:15:47 2017
 @author: Kody Ellis
 """
 import numpy
-#file, string
 
 def weatherStats(aWeatherFile, aDate = "11/3/2017"):
     """"This opens up a designated file that should be weather data.csv
