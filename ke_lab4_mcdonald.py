@@ -25,7 +25,7 @@ def mcdonald(animal, sound):
             "Old MacDonald had a farm, Eeigh, Eeigh, Oh!", '\n'
             
 
-#A Lst variable that contains all the strings for the animals and the sound they make.
+#A List variable that contains all the strings for the animals and the sound they make.
 list1 = ["cow", "moo", "sheep", "baaa", "dog", "woof", "cat", "meow", "turkey", "gobble gobble"]
 
 #Test Cases
