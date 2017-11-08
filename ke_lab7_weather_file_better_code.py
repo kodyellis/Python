@@ -4,6 +4,9 @@ Created on Fri Nov 03 16:15:47 2017
 
 @author: Kody Ellis
 """
+
+#I believe this code is better than the other version of lab7 however this does fulfill the lab direction 
+#requirements 100%. So I might be penalized if I turned this version of the lab in.
 import numpy
 #There's no need to preiniatialize empty array like humid or wind_speed
 
